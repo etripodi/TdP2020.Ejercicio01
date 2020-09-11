@@ -22,12 +22,17 @@
         private double iRadio;
 
         /// <summary>
-        /// 
+        /// Inicializa una nueva instancia del circulo.
         /// </summary>
         /// <param name="pCentro"></param>
         /// <param name="pRadio"></param>
         public Circulo(Punto pCentro, double pRadio)
         {
+
+            this.iCentro = pCentro;
+
+            this.iRadio = pRadio;
+
         }
 
         public Circulo(double pX, double pY, double pRadio) : this(new Punto(pX, pY), pRadio)
