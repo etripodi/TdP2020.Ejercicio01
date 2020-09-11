@@ -32,7 +32,7 @@
 
         public Circulo(double pX, double pY, double pRadio) : this(new Punto(pX, pY), pRadio)
         {
-            string
+
         }
 
         /// <summary>
@@ -42,7 +42,7 @@
 
         public double Radio { get { return this.iRadio; } }
 
-        public double Area { get; }
+        public double CalcularArea() { throw new System.NotImplementedException(); }
 
         public double Perimetro { get; }
 
